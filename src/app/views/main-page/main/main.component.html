@@ -1,0 +1,15 @@
+<div class="container-sm py-5" style="height: 100%">
+  <div class="container-sm single-item">
+    <div>
+      <img class="container-sm" src="../../../../assets/banner1.png" alt="">
+    </div>
+  </div>
+  <div class="container-lg accordion-container">
+    <h2 class="mb-5 mt-5 text-center fw-bold ">Ответы на часто задаваемые вопросы</h2>
+  </div>
+  <accordion></accordion>
+
+</div>
+<div *ngIf="showPopup">
+  <app-main-popup (openCatalog)="goToCatalog()"></app-main-popup>
+</div>

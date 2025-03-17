@@ -24,5 +24,13 @@
   color: white;
   background: linear-gradient(0.00deg, rgb(7, 107, 255), rgb(0, 123, 255) 100%);
 }
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu ul {
+  margin: 0;
+}
 
 /* You can add global styles to this file, and also import other style files */
